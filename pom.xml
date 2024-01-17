@@ -8,9 +8,10 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
+        <version>3.10.0</version> <!-- Use a version that supports Java 17 -->
         <configuration>
-          <release>17</release>
+          <source>17</source>
+          <target>17</target>
         </configuration>
       </plugin>
       <plugin>
